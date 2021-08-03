@@ -122,12 +122,12 @@ section {
 
 .form-input {
     border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
 }
 .hero-form label {
     margin: 0 5px;
@@ -142,9 +142,6 @@ section {
 }
 /* HERO STYLES END */
 
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -152,20 +149,21 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -201,7 +199,7 @@ section {
 }
 
 .trainers {
-    text-align: center;
+  
 }
 
 .trainer {
@@ -231,6 +229,10 @@ section {
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -250,7 +252,6 @@ section {
 /* REACH OUT STYLES START */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -260,20 +261,20 @@ section {
 .contact-info iframe {
     width: 400px;
     height: 400px;
-  }
+}
 
 .contact-info div {
-      width: 410px;
-      display: inline-block;
-      vertical-align: top;
-      text-align: left;
-      margin: 30px 0 0 60px;
-      color: white;
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
 }
 
 .contact-info h3 {
-      color: #fce138;
-      font-size: 32px;
+    color: #fce138;
+    font-size: 32px;
 }
 
 .contact-info p, .contact-info address {
@@ -298,5 +299,6 @@ section {
     font-weight: normal;
     font-size: 42px;
     font-style: italic;
-    
 }
+
+
